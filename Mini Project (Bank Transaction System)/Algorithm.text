@@ -1,0 +1,16 @@
+Step-1) Make a class "Customers" containing the and other customer details and their account id.
+Step-2) Make a class "Accounts" containing the account ids and the balance , account type .This class also stores the customer details in from of object of customer class.
+Step-3) Make a class "Transaction" that will store the record of transactions from debit and credit card and the also account details in form of object of Account class.
+Step-4) Store the transaction details as the object of Transaction class using ArrayList in the Main class.
+
+Step-5) Implementation. Ask the user to enter the Account No.
+			If 	 --Account no. is not present show error message and exit.
+			else -- Give user 2 choise Do transaction via Debit or Credit.
+				case-1)user chooses the Credit Card.
+						Accept the value to be withdrawn. 
+						Do the transaction. Update the Account details.
+				
+				case-1)user chooses the Debit Card.
+						Accept the value to be withdrawn.
+						Check if the balance is present if yes then do the transaction and update account details 
+						else show error and exit to home.
