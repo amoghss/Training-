@@ -3,6 +3,7 @@ package com.wiley.adv;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+// Converts the Map to a list using Threads
 class People
 {
 	int id;
